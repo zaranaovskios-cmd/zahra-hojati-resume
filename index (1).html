@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>رزومه زهرا حجتی</title>
+<style>
+@page { size: A4; margin: 0; }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e9eceb;color:#162a2d;font-family:"Noto Sans Arabic","Noto Kufi Arabic",Arial,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-size:11.2pt;line-height:1.72}
+.page{width:210mm;height:297mm;background:#f6f2ea;position:relative;overflow:hidden;page-break-after:always;padding:18mm 18mm 14mm 18mm}
+.page:last-child{page-break-after:auto}
+.page:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 8% 8%,rgba(17,83,91,.08),transparent 25%),radial-gradient(circle at 92% 94%,rgba(120,52,59,.06),transparent 24%);pointer-events:none}
+.side-rule{position:absolute;right:0;top:0;width:8mm;height:100%;background:#123e47}
+.side-rule:after{content:"";position:absolute;right:8mm;top:0;width:1px;height:100%;background:#b99b62}
+.page-no{position:absolute;left:18mm;bottom:8mm;color:#6c7b7e;font-size:8.5pt;letter-spacing:.12em}
+.kicker{font-size:8pt;letter-spacing:.14em;color:#8a6b48;font-weight:700}
+h1{margin:1.5mm 0 0;font-size:29pt;line-height:1.15;color:#103b43;font-weight:800}
+.subtitle{font-size:13.5pt;color:#73424a;font-weight:700;margin-top:2mm}
+.tagline{font-size:9.5pt;color:#53666a;margin-top:1.5mm}
+.top-grid{display:grid;grid-template-columns:1fr 52mm;gap:10mm;align-items:start;position:relative;z-index:1}
+.photo{width:45mm;height:45mm;border-radius:50%;border:1.2mm solid #f6f2ea;outline:1px solid #b99b62;background:linear-gradient(145deg,#dfe5e3,#eef1ef);display:flex;align-items:center;justify-content:center;color:#66797c;font-size:9pt;margin-right:auto;box-shadow:0 0 0 4mm #123e47}
+.contact{margin-top:7mm;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2mm 6mm;font-size:9.3pt;color:#46595d}
+.contact span{display:block;border-bottom:1px solid #d7d0c3;padding-bottom:1.5mm}
+.contact b{color:#123e47}
+.section{margin-top:8mm;position:relative;z-index:1}
+.section-title{display:flex;align-items:center;gap:3mm;margin-bottom:4mm}
+.section-title .num{width:9mm;height:9mm;border-radius:50%;background:#7c3c47;color:#fff;display:flex;align-items:center;justify-content:center;font-size:7.5pt;font-weight:700}
+.section-title h2{margin:0;font-size:15pt;color:#123e47}
+.section-title:after{content:"";height:1px;background:#c8b890;flex:1}
+.summary{font-size:10.5pt;color:#33484c;background:rgba(255,255,255,.55);border:1px solid #ded7ca;border-radius:4mm;padding:4.5mm 5mm}
+.timeline{display:grid;gap:4.5mm}
+.job{display:grid;grid-template-columns:27mm 1fr;gap:4mm;position:relative}
+.job .date{font-weight:800;color:#7c3c47;font-size:10pt;padding-top:.5mm}
+.job .content{border-right:2px solid #b99b62;padding-right:4mm}
+.job h3{margin:0;font-size:11.7pt;color:#173f46}
+.job .org{font-size:9.4pt;color:#6a777a;margin-top:.5mm}
+.job ul{margin:2mm 0 0;padding-right:5mm}
+.job li{margin:.7mm 0;color:#394d51;font-size:9.4pt}
+.achievement{margin-top:2mm;background:#e9efed;border-right:3px solid #123e47;padding:2.4mm 3mm;border-radius:2mm;font-size:9.3pt;color:#24464c}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.card{background:rgba(255,255,255,.58);border:1px solid #ded7ca;border-radius:4mm;padding:4mm 4.5mm;min-height:31mm}
+.card h3{font-size:11pt;margin:0 0 2mm;color:#123e47}
+.card p{margin:0;color:#405458;font-size:9.2pt}
+.pills{display:flex;flex-wrap:wrap;gap:1.5mm;margin-top:2mm}
+.pill{border:1px solid #b8c4c1;background:#eff3f2;border-radius:999px;padding:1mm 2.2mm;font-size:8.4pt;color:#26494e}
+.big-card{background:#123e47;color:#f5f1e9;border-radius:5mm;padding:5mm;margin-top:5mm;position:relative;overflow:hidden}
+.big-card:after{content:"";position:absolute;left:-12mm;bottom:-18mm;width:50mm;height:50mm;border:1px solid rgba(185,155,98,.6);border-radius:50%}
+.big-card h3{margin:0 0 2mm;font-size:12pt;color:#f5f1e9}.big-card p{margin:0;font-size:9.5pt;color:#dce6e4;max-width:88%}
+.skill-row{display:grid;grid-template-columns:38mm 1fr;gap:3mm;align-items:start;margin:2.4mm 0}
+.skill-row b{color:#173f46;font-size:9.5pt}.skill-row span{font-size:9pt;color:#4a5c60}
+.education{display:grid;gap:4mm}.edu{display:grid;grid-template-columns:1fr 28mm;gap:4mm;padding:4mm;border:1px solid #ded7ca;background:rgba(255,255,255,.55);border-radius:4mm}.edu h3{margin:0;color:#123e47;font-size:11.3pt}.edu p{margin:1mm 0 0;color:#4a5c60;font-size:9.2pt}.gpa{display:flex;align-items:center;justify-content:center;border-radius:4mm;background:#7c3c47;color:#fff;font-weight:800;font-size:16pt;line-height:1.05;text-align:center}.gpa small{font-size:7pt;font-weight:500;display:block;margin-top:1mm}
+.pub-list{margin:0;padding-right:5mm}.pub-list li{margin:2mm 0;color:#3b5054;font-size:9.25pt}.pub-list strong{color:#123e47}
+.honors{display:grid;grid-template-columns:1fr 1fr;gap:3mm}.honor{padding:3mm 3.5mm;background:#edf1ef;border-right:3px solid #7c3c47;border-radius:2mm;font-size:9.1pt;color:#344d51}
+.lang{display:grid;grid-template-columns:30mm 1fr;gap:3mm;margin:2mm 0}.lang b{color:#123e47}.level{height:2.6mm;background:#d8dfdd;border-radius:99px;margin-top:3mm;overflow:hidden}.level i{display:block;height:100%;background:#123e47;border-radius:99px}
+.footer-note{position:absolute;bottom:12mm;right:18mm;left:18mm;border-top:1px solid #d0c5b0;padding-top:2mm;color:#6a777a;font-size:8.3pt}
+.quote{font-size:14pt;line-height:1.7;color:#123e47;font-weight:700;margin:0 0 2mm}
+.small{font-size:8.7pt;color:#637276}
+.two-columns{columns:2;column-gap:8mm}
+.two-columns li{break-inside:avoid}
+@media print{body{background:#fff}.page{box-shadow:none}}
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="side-rule"></div>
+  <div class="top-grid">
+    <div>
+      <div class="kicker">رزومه حرفه‌ای / EDUCATION · IT · DESIGN</div>
+      <h1>زهرا حجتی</h1>
+      <div class="subtitle">کارشناس آموزش، فناوری اطلاعات و طراحی گرافیک</div>
+      <div class="tagline">معلم · معاون فنی · طراح گرافیک · تولیدکننده محتوای دیجیتال</div>
+      <div class="contact">
+        <span><b>تلفن:</b> 09136886906</span>
+        <span><b>ایمیل:</b> zahrahojati13801380@gmail.com</span>
+        <span><b>شهر:</b> اصفهان</span>
+        <span><b>نمونه‌کار:</b> در صورت نیاز ارائه می‌شود</span>
+      </div>
+    </div>
+    <div class="photo">محل عکس پرسنلی</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><div class="num">01</div><h2>پروفایل حرفه‌ای</h2></div>
+    <div class="summary">
+      فعال حوزه آموزش و فناوری با سابقه حضور در آموزش‌وپرورش از سال ۱۳۹۸ و تجربه تدریس، معاونت فنی هنرستان، پشتیبانی سیستم‌های رایانه‌ای، کار با سامانه‌های اداری و آموزشی، تولید محتوای دیجیتال، طراحی گرافیک و پژوهش. دارای توانایی بالا در حل مسئله، یادگیری سریع ابزارهای جدید و استفاده از منابع تخصصی فارسی و انگلیسی برای رفع مشکلات فنی و اجرایی.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><div class="num">02</div><h2>سوابق حرفه‌ای</h2></div>
+    <div class="timeline">
+      <div class="job">
+        <div class="date">۱۴۰۴</div>
+        <div class="content">
+          <h3>معاون فنی هنرستان فنی‌وحرفه‌ای و کاردانش زنده‌یاد جهانی</h3>
+          <div class="org">آموزش‌وپرورش</div>
+          <ul>
+            <li>پشتیبانی و رفع اشکالات نرم‌افزاری سیستم‌های رایانه‌ای، نصب ویندوز و نرم‌افزارهای موردنیاز.</li>
+            <li>بررسی شبکه و تجهیزات کارگاه‌ها، راه‌اندازی و عیب‌یابی پرینتر، اسکنر و تجهیزات دیجیتال.</li>
+            <li>طبقه‌بندی سیستم‌ها براساس RAM، کارت گرافیک و توان سخت‌افزاری و تخصیص آن‌ها متناسب با نیاز رشته‌ها.</li>
+            <li>تهیه گزارش‌ها، جداول، فهرست کلاس‌ها، سازمان‌دهی اطلاعات و کار با سامانه‌های آموزش‌وپرورش.</li>
+            <li>راهنمایی دانش‌آموزان رشته‌های کامپیوتر و تولید محتوا و پاسخ‌گویی به مشکلات نرم‌افزاری هنرآموزان.</li>
+            <li>برنامه‌ریزی و آماده‌سازی دانش‌آموزان برای جشنواره‌ها و برگزاری کارگاه‌های سواد بصری و هویت بصری.</li>
+          </ul>
+          <div class="achievement"><b>دستاورد منتخب:</b> حل بخش قابل‌توجهی از مشکلات فنی و نرم‌افزاری کارگاه‌ها در داخل مجموعه و کاهش نیاز به پشتیبانی فنی بیرونی.</div>
+        </div>
+      </div>
+      <div class="job">
+        <div class="date">۱۴۰۱–۱۴۰۳</div>
+        <div class="content">
+          <h3>آموزگار پایه ششم ابتدایی</h3>
+          <ul><li>تدریس، برنامه‌ریزی آموزشی، ارزشیابی، مدیریت کلاس و تولید محتوای آموزشی.</li><li>استفاده از فناوری و ابزارهای دیجیتال در فرایند آموزش و مستندسازی فعالیت‌ها.</li></ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="date">۱۳۹۸–۱۴۰۱</div>
+        <div class="content">
+          <h3>دانشجومعلم آموزش ابتدایی</h3>
+          <ul><li>تحصیل دانشگاهی در رشته آموزش ابتدایی همراه با تجربه عملی در محیط مدرسه.</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no" style="direction:ltr">01 / 03</div>
+</section>
+
+<section class="page" style="padding-top:15mm;padding-bottom:12mm">
+  <div class="side-rule"></div>
+  <div class="kicker">مهارت‌ها و توانمندی‌های فنی</div>
+  <h1 style="font-size:24pt">فناوری، Office و طراحی</h1>
+  <div class="subtitle" style="font-size:11pt">مهارت‌های اجرایی قابل استفاده در محیط آموزشی و اداری</div>
+
+  <div class="section" style="margin-top:6mm">
+    <div class="section-title"><div class="num">03</div><h2>Microsoft Office و ICDL</h2></div>
+    <div class="grid2">
+      <div class="card" style="min-height:27mm;padding:3.4mm 4mm">
+        <h3>Excel و مدیریت داده</h3>
+        <p>تهیه جداول هفتگی، سازمان‌دهی اطلاعات دانش‌آموزان و معلمان، فهرست کلاس‌ها، گزارش‌گیری، مرتب‌سازی و فیلتر، فرمول‌نویسی، آماده‌سازی فایل‌های اداری و مدیریت داده.</p>
+        <div class="pills"><span class="pill">Sort & Filter</span><span class="pill">Formulas</span><span class="pill">Reports</span><span class="pill">Print Setup</span></div>
+      </div>
+      <div class="card" style="min-height:27mm;padding:3.4mm 4mm">
+        <h3>Word و PowerPoint</h3>
+        <p>نگارش و صفحه‌آرایی اسناد، گزارش‌ها و پایان‌نامه، جدول‌بندی، تنظیمات چاپ، ارائه‌های آموزشی و حرفه‌ای و مدیریت PDF با Adobe Acrobat.</p>
+        <div class="pills"><span class="pill">Word</span><span class="pill">PowerPoint</span><span class="pill">Adobe Acrobat</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:6mm">
+    <div class="section-title"><div class="num">04</div><h2>پشتیبانی رایانه و فناوری اطلاعات</h2></div>
+    <div class="card" style="padding:3.4mm 4mm">
+      <div class="skill-row" style="margin:1.8mm 0"><b>سیستم‌عامل و نرم‌افزار</b><span>نصب Windows، نصب نرم‌افزارها و عیب‌یابی نرم‌افزاری.</span></div>
+      <div class="skill-row" style="margin:1.8mm 0"><b>سخت‌افزار و تجهیزات</b><span>عیب‌یابی اولیه سخت‌افزار، پرینتر، اسکنر، پروژکتور و تجهیزات کلاس.</span></div>
+      <div class="skill-row" style="margin:1.8mm 0"><b>شبکه و فایل</b><span>بررسی شبکه‌های رایانه‌ای، اشتراک فایل، مدیریت کارگاه و آرشیو دیجیتال.</span></div>
+      <div class="skill-row" style="margin:1.8mm 0"><b>سامانه‌های سازمانی</b><span>کار با سامانه‌های آموزشی و اداری آموزش‌وپرورش و اتوماسیون اداری.</span></div>
+      <div class="skill-row" style="margin:1.8mm 0"><b>حل مسئله</b><span>جست‌وجوی حرفه‌ای منابع انگلیسی، مستندات فنی و ابزارهای هوش مصنوعی.</span></div>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:6mm">
+    <div class="section-title"><div class="num">05</div><h2>طراحی، وب و تولید محتوا</h2></div>
+    <div class="grid2" style="gap:4mm">
+      <div class="card" style="min-height:25mm;padding:3.4mm 4mm"><h3>طراحی گرافیک</h3><p>Photoshop، Illustrator، CorelDRAW، Canva، روتوش، ویرایش تصویر، نقاشی دیجیتال، پوستر و گرافیک محیطی.</p></div>
+      <div class="card" style="min-height:25mm;padding:3.4mm 4mm"><h3>موشن و ویدئو</h3><p>After Effects، Animate، لوگوموشن، انیمیشن، تدوین ویدئو و ساخت کلیپ.</p></div>
+      <div class="card" style="min-height:25mm;padding:3.4mm 4mm"><h3>وب و رابط کاربری</h3><p>Figma، WordPress، آشنایی با HTML/CSS و تجربه پروژه‌های دانشگاهی طراحی وب و UI.</p></div>
+      <div class="card" style="min-height:25mm;padding:3.4mm 4mm"><h3>هوش مصنوعی و محتوا</h3><p>ChatGPT و ابزارهای AI برای آموزش، پژوهش، طراحی، تولید محتوا و بهره‌وری؛ دارای گواهی مرتبط.</p></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:5mm;padding:3.2mm 4mm;min-height:auto">
+    <p><b style="color:#123e47">مهارت‌های تکمیلی:</b> Google Forms، مدیریت شبکه‌های اجتماعی، ایمیل رسمی، عکاسی، تدوین و ساخت کلیپ، تایپ ده‌انگشتی، مدیریت فایل و آرشیو دیجیتال. &nbsp; <b style="color:#123e47">حسابداری مقدماتی:</b> دوره مؤسسه پویانظم؛ آشنایی با بدهکار و بستانکار، ثبت سند، فاکتور و تنخواه.</p>
+  </div>
+  <div class="page-no" style="direction:ltr">02 / 03</div>
+</section>
+
+<section class="page" style="padding-top:14mm;padding-bottom:10mm;font-size:10pt;line-height:1.55">
+  <div class="side-rule"></div>
+  <div class="kicker">تحصیلات، پژوهش و افتخارات</div>
+  <h1 style="font-size:24pt">پیشینه علمی و حرفه‌ای</h1>
+  <div class="subtitle" style="font-size:11pt">پیوند آموزش، هنر، پژوهش و فناوری</div>
+
+  <div class="section" style="margin-top:4.5mm">
+    <div class="section-title"><div class="num">07</div><h2>تحصیلات</h2></div>
+    <div class="grid2" style="gap:4mm">
+      <div class="edu" style="grid-template-columns:1fr 23mm;padding:3.2mm"><div><h3>کارشناسی ارشد گرافیک</h3><p>دانشگاه سپهر اصفهان</p><p>پایان‌نامه: «تحلیل بصری ابهامات اخلاقی رستم در شاهنامه طهماسبی بر اساس نظریات ژیلبر دوران»</p></div><div class="gpa" style="font-size:14pt">۱۸٫۷۱<small>از ۲۰</small></div></div>
+      <div class="edu" style="grid-template-columns:1fr 23mm;padding:3.2mm"><div><h3>کارشناسی آموزش ابتدایی</h3><p>ورودی ۱۳۹۸</p><p>تجربه آموزشی و تربیتی در محیط مدرسه</p></div><div class="gpa" style="font-size:14pt">۱۹٫۵<small>از ۲۰</small></div></div>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:4.5mm">
+    <div class="section-title"><div class="num">08</div><h2>تألیف، ترجمه و مقالات</h2></div>
+    <div class="grid2" style="gap:4mm">
+      <div>
+        <div class="card" style="padding:3.3mm 4mm;min-height:22mm"><h3>تألیف</h3><p><strong>«تأثیر هنر در یادگیری و تدریس»</strong></p></div>
+        <div class="card" style="padding:3.3mm 4mm;min-height:22mm;margin-top:3mm"><h3>مقالات علمی</h3><p>دارای <strong>۴ مقاله چاپ‌شده</strong> و سابقه ارائه در همایش‌های علمی.</p></div>
+      </div>
+      <div class="card" style="padding:3.3mm 4mm">
+        <h3>ترجمه کتاب</h3>
+        <ol class="pub-list" style="padding-right:4mm">
+          <li>«چگونه به اپیدمی اوتیسم پایان دهیم» - J. B. Handley</li>
+          <li>«از برنامه‌های درسی تا مبارزات قدرت»</li>
+          <li>«بیش‌فعالی و ADHD» - حقایقی علمی درباره بیش‌فعالی</li>
+          <li>«چگونه هوش مصنوعی آموزش را متحول خواهد کرد؟» - ترجمه مشترک</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:4.5mm">
+    <div class="section-title"><div class="num">09</div><h2>افتخارات و فعالیت‌های شاخص</h2></div>
+    <div class="honors" style="gap:2.4mm">
+      <div class="honor">رتبه اول منطقه در جشنواره پژوهش سال ۱۴۰۲ در مجموعه فعالیت‌های پژوهشی و مستندسازی مدرسه</div>
+      <div class="honor">دارای تقدیرنامه پژوهشی</div>
+      <div class="honor">دارای تقدیرنامه در سطح وزارت آموزش‌وپرورش</div>
+      <div class="honor">معدل ۱۹٫۵ در دوره کارشناسی</div>
+      <div class="honor">دارای گواهی مرتبط با کاربرد ابزارهای هوش مصنوعی</div>
+      <div class="honor">برگزاری رایگان کارگاه‌های سواد بصری و هویت بصری برای دانش‌آموزان رشته تولید محتوا</div>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:4.5mm">
+    <div class="section-title"><div class="num">10</div><h2>زبان‌ها و ویژگی‌های حرفه‌ای</h2></div>
+    <div class="grid2" style="gap:4mm">
+      <div class="card" style="padding:3.3mm 4mm">
+        <h3>زبان‌های خارجی</h3>
+        <p><b style="color:#123e47">انگلیسی:</b> Reading و Translation عالی؛ Speaking نسبتاً روان؛ Writing خوب. توانایی استفاده مستقیم از منابع تخصصی انگلیسی.</p>
+        <p style="margin-top:2mm"><b style="color:#123e47">فرانسوی:</b> سطح A1</p>
+      </div>
+      <div class="card" style="padding:3.3mm 4mm">
+        <h3>ویژگی‌های حرفه‌ای</h3>
+        <p>مسئولیت‌پذیری · حل مسئله · یادگیری سریع · پیگیری امور · مدیریت و سازمان‌دهی · توانایی آموزش · کار مستقل · ارتباط مؤثر · دقت · سازگاری با فناوری‌های جدید</p>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="page-no" style="direction:ltr">03 / 03</div>
+</section>
+</body></html>
